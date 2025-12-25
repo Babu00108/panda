@@ -3,196 +3,179 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:white;
+.container {
+    width: 1280px;
+    margin: auto;
 }
-.container{
-    width: 78%;
-    margin: 0px auto;
-}
-#nav,
-#hero,
-#catagor,
-#shoe-box,
-#backpad,
-#from{
-    margin-bottom: 80px;
-}
-#nav-container{
-    background-color: #FFFFFF;
+.nav-parent {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-#nav-img img{
-    width: 148px;
-}
-#nav-menu img {
-    width: 48px;
-}
-#hero-container{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 40px;
 }
-#hero-contant{
-    width: 560px;
-    gap: 8px;
-    padding-left: 20px;
-}
-#hero-contant h1{
-    font-size: 56px #1F1F1F;
-    padding-bottom: 14px;
-}
-#hero-contant p {
-     font-size: 16px #4E4E4E;
-    padding-bottom: 14px;
-    line-height: 26px;
-
-}
-   
-#hero-contant h2 {
-    font-size: 30px ;
-    padding-bottom: 14px;
-    line-height: auto;
-    color: #FF136F;
-    
-}
-.btn{
+.nav-img {
     width: 140px;
-    padding: 10px;
-     background-image: linear-gradient(to right, #FF589B , #FF2E80);
-     border: none;
-     cursor: pointer;
-     border-radius: 6px;
-     color: aliceblue;
+    margin-top: 10px;
 }
-#hero-img img{
-    width: 400px;
-    max-width: 100%;
+.menu{
+    font-size: 30px;
+    margin-right: 20px;
 }
-.heading{
-    font-size: 36px;
-    padding-bottom: 20px;
-    color: #1F1F1F;
-}
-#catagory-box{
+.hero-area {
     display: flex;
     justify-content: space-between;
-}
-#catagory{
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    border: 1px solid red;
-    width: 359px;
-    text-align: center;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    color: beige;
-    /* padding-left: 20px;  */
-    /* padding-right: 20px;  */
-    /* background-color: #FF9C35;  */
+    margin-top: 100px;
 }
-#shoe-box{
+.hero-contant {
+    width: 600px;
+}
+.hero-contant h1 {
+    margin-bottom: 10px;
+}
+.hero-contant p {
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.hero-contant h2 {
+    margin-bottom: 16px;
+    color: #FF136F;
+}
+.hero-btn button {
+    padding: 8px 30px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 6px;
+     background-image: linear-gradient(#FF589B, #FF2E80, #FF136F);
+}
+.hero-img {
+    width: 400px;
+    margin-right: 100px;
+}
+.hero-img img {
+    width: 100%;
+}
+/* catagory section code hare  */
+
+.heading h2 {
+    margin-top: 98px;
+    margin-bottom: 50px;
+}
+.catagory-parent {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 98px;
+}
+.catagory-box h4 {
+    color: aliceblue;
+    font-size: 30px;
+}
+.bag-box h4 {
+    color: aliceblue;
+    font-size: 30px;
+}
+.shoe-box h4 {
+    color: aliceblue;
+    font-size: 30px;
+}
+.catagory-box {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 400px;
+     background-color: #FF9C35;
+     padding: 10px 50px;
+     border-radius: 10px;
     
-   
 }
-.box{
-    width: 360px;
-    padding: 5px;
-   border-radius: 20px;
-    border: 1px solid red;
-    border: 1px solid black;
-    text-align: center;
-    gap: 20px;
-    background-color: #FFFFFF;
-   
+.bag-box {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 400px;
+     background-color: #FF136F;
+     padding: 10px 50px;
+     border-radius: 10px;
+    
 }
-.box img{
-    width: 100%;
-    height: 202px;
-    max-width: 336px;
+.shoe-box {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 400px;
+     background-color: #3F07F8;
+     padding: 10px 50px;
+     border-radius: 10px;
+    
 }
-.box h2{
-    color: #1F1F1F;
-    font-size: 24px ;
-    margin-bottom: 10px;
-}
-.box h3{
-    color: #000000;
-    font-size: 24px ;
-    margin-bottom: 10px;
-}
-.box p{
-    color: #1F1F1F;
-    font-size: 16px ;
-    margin-bottom: 10px;
-    line-height: 26px;
+/* ..............................  */
+/* thirtd section code hare  */
 
+.card-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.box-btn{
-    width: 168px;
-    padding: 14px 20px;
-    border-radius: 6px;
-    border: none;
-    background-color: #000000;
-    color: azure;
-    margin-bottom: 20px;
+.card-box {
+    width: 350px;
+    margin-bottom: 98px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px grey;
 }
-#from-container{
-    
+.card-box h4 {
+    margin-bottom: 10px;
+}
+.card-box p {
+    margin-bottom: 10px;
+}
+.card-box h2 {
+    margin-bottom: 10px;
+}
+.box-btn button {
+    background-color: black;
+    padding: 6px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 7px;
+}
+/* ...............................   */
+/* furth section code hare  */
+.foter {
+    margin-bottom: 100px;
     background-color: #FFF2F1;
     padding: 146px 246px;
     text-align: center;
-    display: flex;
+    position: relative;
 }
-#from-contant h2{
-    font-size: 30px;
-    color: #1F1F1F;
-    padding-bottom: 5px;
+.foter-contant p {
+    margin-bottom: 20px;
 }
-#from-contant p{
-    font-size: 16px;
-    color: #707070;
-    padding-bottom: 5px;
-}
-#from-contant{
-    /* display: flex;  */
-    justify-content: center;
-    /* text-align: center;  */
-    align-items: center;
-    padding-left: 180px;
-    /* padding:  0px auto;  */
-}
-.send-btn{
-    background-color: #FF136F;
-    padding: 10px 20px;
+.input {
+    /* padding: 8px 100px;  */
+    color: #FF136F;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     border: none;
-    border-radius: 6px;
-    color: #FFFFFF;
-    cursor: pointer;
-
-}
-#input{
-    background-color: #FFFFFF;
-    padding: 10px 100px;
-    border: none;
-    gap: auto;
-    margin-top: 10px;
-
-}
-
-
-
-
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
    
-
-
-
-        
+}
+.btn {
+    background-color: #FF136F;
+    border: none;
+    padding: 10px 20px;
+    border-bottom-right-radius:6px ;
+   border-top-right-radius: 6px;
+   margin-right: 10px;
+   color: #FFF2F1;
+   position: absolute;
+   left: 802px;
+   top: 206px;
+    
+}
